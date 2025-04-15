@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 20px;
+  padding-top: 20px;
+  padding-bottom: 36px;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.logoutWrapper {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 800;
+  background-color: white;
+}
+
+.mainButton {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  z-index: 800;
+}
